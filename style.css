@@ -1,0 +1,47 @@
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 2rem;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+#calc-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+#bills-container {
+    flex-direction: column;
+    flex-basis: 40%;
+    background: lightpink;
+}
+#coins-container {
+    flex-direction: column;
+    flex-basis: 40%;
+    background: lightskyblue;
+}
+.calc-items {
+    margin: 1rem;
+    padding: 0rem;
+}
+.output-items {
+    padding: 0 0 1rem 0;
+}
+p {
+    font-size: 1.5rem;
+}
+input {
+    font-size: 1.5rem;
+    border: solid black 0.1rem;
+}
+button {
+    font-size: 1.5rem;
+    border: 0.1rem solid grey;
+    border-radius: 0.5rem;
+}
+#change-output {
+    justify-content: right;
+}

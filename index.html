@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href='style.css' rel='stylesheet'>
+    <title>Change Calculator</title>
+  </head>
+  <body>
+    <h1>Change Calculator</h1>
+    <!-- Write your markup here -->
+      <div id='calc-container'>
+        <input id="amount-due" class='calc-items' placeholder="Total">
+        <input id="amount-received" class='calc-items' placeholder="Cash">
+        <button id='calculate-change' class='calc-items' onclick="calculateChange()">Calculate</button>
+        <p id='change-output'>Change: 0.00</p>
+      </div>
+    <div class='container'>
+      <div id='bills-container' class='output-container'>
+        <p id='hundreds-output' class='output-items'>Hundreds: 0</p>
+        <p id='fifties-output' class='output-items'>Fifties: 0</p>
+        <p id='twenties-output' class='output-items'>Twenties: 0</p>
+        <p id='tens-output' class='output-items'>Tens: 0</p>
+        <p id='fives-output' class='output-items'>Fives: 0</p>
+      </div>
+      <div id='coins-container' class='output-container'>
+        <p id='dollars-output' class='output-items'>Dollars: 0</p>
+        <p id='quarters-output' class='output-items'>Quarters: 0</p>
+        <p id='dimes-output' class='output-items'>Dimes: 0</p>
+        <p id='nickels-output' class='output-items'>Nickels: 0</p>
+        <p id='pennies-output' class='output-items'>Pennies: 0</p>
+      </div>
+    </div>
+    <!-- Don't forget to add your <script> tag here -->
+  <script src='main.js'></script>
+  </body>
+</html>
